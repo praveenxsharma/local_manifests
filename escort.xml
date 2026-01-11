@@ -4,7 +4,7 @@
   <remote name="gitlab" fetch="https://gitlab.com" />
   <remote name="personal" fetch="https://github.com/praveenxsharma" />
 
-  <project path="device/nothing/Aerodactyl" name="android_device_nothing_Aerodactyl" remote="personal" revision="mist" />
+  <project path="device/nothing/Aerodactyl" name="android_device_nothing_Aerodactyl" remote="personal" revision="mist-qpr1" />
   
   <project path="device/nothing/Aerodactyl-kernel" name="Nothing-2A/android_device_nothing_Aerodactyl-kernel" remote="github" revision="lineage-23.1" />
 
