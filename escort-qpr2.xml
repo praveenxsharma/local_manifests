@@ -17,8 +17,8 @@
   <project path="hardware/nothing" name="Nothing-2A/android_hardware_nothing" remote="github" revision="lineage-23.0" />
   
 
-  <project path="vendor/nothing" name="vendor_nothing" remote="personal" revision="main" />
-  <project path="vendor/nothing/prebuilts" name="vendor_nothing_prebuilts" remote="personal" revision="main" />
+  <project path="vendor/nothing/NothingStub" name="android_vendor_nothing" remote="personal" revision="main" />
+  <project path="vendor/prebuilts" name="android_vendor_nothing_prebuilts" remote="personal" revision="main" />
   <project path="packages/apps/GlyphAdapter" name="packages_apps_GlyphAdapter" remote="pong" revision="15" />
 
 </manifest>
