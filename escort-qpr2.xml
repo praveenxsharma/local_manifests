@@ -2,7 +2,7 @@
 <manifest>
   <remote name="gitlab" fetch="https://gitlab.com" />
   <remote name="personal" fetch="https://github.com/praveenxsharma" />
-  <remote name="pong" fetch="https://github.com/Pong-Development">
+  <remote name="pong" fetch="https://github.com/Pong-Development" />
 
   <project path="device/nothing/Aerodactyl" name="android_device_nothing_Aerodactyl" remote="personal" revision="mist-qpr2" />
   
@@ -17,8 +17,8 @@
   <project path="hardware/nothing" name="Nothing-2A/android_hardware_nothing" remote="github" revision="lineage-23.0" />
   
 
-  <project path="vendor/nothing/NothingStub" name="android_vendor_nothing" remote="personal" revision="main" />
-  <project path="vendor/prebuilts" name="android_vendor_nothing_prebuilts" remote="personal" revision="main" />
+  <project path="vendor/nothing/NothingStub" name="android_vendor_nothing_NothingStub" remote="personal" revision="main" />
+  <project path="vendor/prebuilts" name="android_vendor_prebuilts" remote="personal" revision="main" />
   <project path="packages/apps/GlyphAdapter" name="packages_apps_GlyphAdapter" remote="pong" revision="15" />
 
 </manifest>
