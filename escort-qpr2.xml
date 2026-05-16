@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="gitlab" fetch="https://gitlab.com" />
-  <remote name="personal" fetch="https://github.com/praveenxsharma" />
-  <remote name="pong" fetch="https://github.com/Pong-Development" />
+  <remote name="github" fetch="https://github.com/" />
+  <remote name="los" fetch="https://github.com/LineageOS/" revision="lineage-20.0" />
 
-  <project path="device/nothing/Aerodactyl" name="android_device_nothing_Aerodactyl" remote="personal" revision="mist-qpr2" />
+  <!-- Karen Device Tree -->
+  <project path="device/oplus/karen" name="praveenxsharma/android_device_oplus_karen" remote="github" revision="main" />
+
+  <!-- Karen Vendor Tree -->
+  <project path="vendor/oplus/karen" name="praveenxsharma/android_vendor_oplus_karen" remote="github" revision="main" />
   
-  <project path="device/nothing/Aerodactyl-kernel" name="Nothing-2A/android_device_nothing_Aerodactyl-kernel" remote="github" revision="lineage-23.2" />
+  <!-- Hardware -->
+  <project path="hardware/mediatek" name="android_hardware_mediatek" remote="los" />
+  <project path="hardware/oplus" name="android_hardware_oplus" remote="los" />
 
-  <project path="vendor/nothing/Aerodactyl" name="nothing-2a/proprietary_vendor_nothing_Aerodactyl" remote="gitlab" revision="lineage-23.2" />
-  <project path="vendor/nothing/Pacman" name="nothing-2a/proprietary_vendor_nothing_Pacman" remote="gitlab" revision="lineage-23.2" />
-  <project path="vendor/nothing/PacmanPro" name="nothing-2a/proprietary_vendor_nothing_PacmanPro" remote="gitlab" revision="lineage-23.2" />
-
-  <project path="device/mediatek/sepolicy_vndr" name="Nothing-2A/android_device_mediatek_sepolicy_vndr" remote="github" revision="lineage-23.2" />
-  <project path="hardware/mediatek" name="Nothing-2A/android_hardware_mediatek" remote="github" revision="lineage-23.2" />
-  <project path="hardware/nothing" name="Nothing-2A/android_hardware_nothing" remote="github" revision="lineage-23.0" />
-  
-
-  <project path="vendor/nothing/NothingStub" name="android_vendor_nothing_NothingStub" remote="personal" revision="main" />
-  <project path="vendor/prebuilts" name="android_vendor_prebuilts" remote="personal" revision="main" />
-  <project path="packages/apps/GlyphAdapter" name="packages_apps_GlyphAdapter" remote="pong" revision="15" />
+  <!-- SEPolicy -->
+  <project path="device/mediatek/sepolicy_vndr" name="android_device_mediatek_sepolicy_vndr" remote="los" />
 
 </manifest>
